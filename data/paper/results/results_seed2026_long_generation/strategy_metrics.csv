@@ -1,0 +1,3 @@
+strategy,n_adapters,seeds,ifeval_prompt_strict_mean,ifeval_prompt_strict_sd,ifeval_prompt_loose_mean,ifeval_prompt_loose_sd,ifeval_instruction_strict_mean,ifeval_instruction_strict_sd,ifeval_instruction_loose_mean,ifeval_instruction_loose_sd,gsm8k_accuracy_mean,gsm8k_accuracy_sd,bbh_accuracy_mean,bbh_accuracy_sd
+diversity,1,2026,0.08333333333333333,0.0,0.08333333333333333,0.0,0.3515439429928741,0.0,0.35629453681710216,0.0,0.43359375,0.0,0.38425925925925924,0.0
+random,1,2026,0.09895833333333333,0.0,0.11458333333333333,0.0,0.3586698337292161,0.0,0.38954869358669836,0.0,0.359375,0.0,0.3425925925925926,0.0

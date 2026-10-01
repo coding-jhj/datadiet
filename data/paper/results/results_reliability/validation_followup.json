@@ -1,0 +1,297 @@
+{
+  "final_subset": {
+    "ifeval": {
+      "path": "work\\evaluation_subsets_final\\ifeval.jsonl",
+      "rows": 192,
+      "expected_rows": 192,
+      "missing_id_count": 0,
+      "duplicate_id_count": 0,
+      "complete": true
+    },
+    "gsm8k": {
+      "path": "work\\evaluation_subsets_final\\gsm8k.jsonl",
+      "rows": 256,
+      "expected_rows": 256,
+      "missing_id_count": 0,
+      "duplicate_id_count": 0,
+      "complete": true
+    },
+    "bbh": {
+      "path": "work\\evaluation_subsets_final\\bbh.jsonl",
+      "rows": 216,
+      "expected_rows": 216,
+      "missing_id_count": 0,
+      "duplicate_id_count": 0,
+      "complete": true
+    }
+  },
+  "seed2026": {
+    "random_seed2026": {
+      "ifeval": {
+        "path": "work\\evaluation_seed2026_long_generation\\random_seed2026\\ifeval_outputs.jsonl",
+        "rows": 192,
+        "expected_rows": 192,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "gsm8k": {
+        "path": "work\\evaluation_seed2026_long_generation\\random_seed2026\\gsm8k_outputs.jsonl",
+        "rows": 256,
+        "expected_rows": 256,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "bbh": {
+        "path": "work\\evaluation_seed2026_long_generation\\random_seed2026\\bbh_outputs.jsonl",
+        "rows": 216,
+        "expected_rows": 216,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      }
+    },
+    "diversity_seed2026": {
+      "ifeval": {
+        "path": "work\\evaluation_seed2026_long_generation\\diversity_seed2026\\ifeval_outputs.jsonl",
+        "rows": 192,
+        "expected_rows": 192,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "gsm8k": {
+        "path": "work\\evaluation_seed2026_long_generation\\diversity_seed2026\\gsm8k_outputs.jsonl",
+        "rows": 256,
+        "expected_rows": 256,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "bbh": {
+        "path": "work\\evaluation_seed2026_long_generation\\diversity_seed2026\\bbh_outputs.jsonl",
+        "rows": 216,
+        "expected_rows": 216,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      }
+    }
+  },
+  "base_model": {
+    "ifeval": {
+      "path": "work\\evaluation_base_long_generation\\base_model\\ifeval_outputs.jsonl",
+      "rows": 192,
+      "expected_rows": 192,
+      "duplicate_id_count": 0,
+      "missing_id_count": 0,
+      "extra_id_count": 0,
+      "malformed_row_count": 0,
+      "complete": true
+    },
+    "gsm8k": {
+      "path": "work\\evaluation_base_long_generation\\base_model\\gsm8k_outputs.jsonl",
+      "rows": 256,
+      "expected_rows": 256,
+      "duplicate_id_count": 0,
+      "missing_id_count": 0,
+      "extra_id_count": 0,
+      "malformed_row_count": 0,
+      "complete": true
+    },
+    "bbh": {
+      "path": "work\\evaluation_base_long_generation\\base_model\\bbh_outputs.jsonl",
+      "rows": 216,
+      "expected_rows": 216,
+      "duplicate_id_count": 0,
+      "missing_id_count": 0,
+      "extra_id_count": 0,
+      "malformed_row_count": 0,
+      "complete": true
+    }
+  },
+  "expanded_subset": {
+    "ifeval": {
+      "path": "work\\evaluation_subsets_expanded\\ifeval.jsonl",
+      "rows": 384,
+      "expected_rows": 384,
+      "missing_id_count": 0,
+      "duplicate_id_count": 0,
+      "complete": true
+    },
+    "gsm8k": {
+      "path": "work\\evaluation_subsets_expanded\\gsm8k.jsonl",
+      "rows": 512,
+      "expected_rows": 512,
+      "missing_id_count": 0,
+      "duplicate_id_count": 0,
+      "complete": true
+    },
+    "bbh": {
+      "path": "work\\evaluation_subsets_expanded\\bbh.jsonl",
+      "rows": 432,
+      "expected_rows": 432,
+      "missing_id_count": 0,
+      "duplicate_id_count": 0,
+      "complete": true
+    }
+  },
+  "expanded_outputs": {
+    "random_seed2026": {
+      "ifeval": {
+        "path": "work\\evaluation_expanded_long_generation\\random_seed2026\\ifeval_outputs.jsonl",
+        "rows": 384,
+        "expected_rows": 384,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "gsm8k": {
+        "path": "work\\evaluation_expanded_long_generation\\random_seed2026\\gsm8k_outputs.jsonl",
+        "rows": 512,
+        "expected_rows": 512,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "bbh": {
+        "path": "work\\evaluation_expanded_long_generation\\random_seed2026\\bbh_outputs.jsonl",
+        "rows": 432,
+        "expected_rows": 432,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      }
+    },
+    "diversity_seed2026": {
+      "ifeval": {
+        "path": "work\\evaluation_expanded_long_generation\\diversity_seed2026\\ifeval_outputs.jsonl",
+        "rows": 384,
+        "expected_rows": 384,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "gsm8k": {
+        "path": "work\\evaluation_expanded_long_generation\\diversity_seed2026\\gsm8k_outputs.jsonl",
+        "rows": 512,
+        "expected_rows": 512,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      },
+      "bbh": {
+        "path": "work\\evaluation_expanded_long_generation\\diversity_seed2026\\bbh_outputs.jsonl",
+        "rows": 432,
+        "expected_rows": 432,
+        "duplicate_id_count": 0,
+        "missing_id_count": 0,
+        "extra_id_count": 0,
+        "malformed_row_count": 0,
+        "complete": true
+      }
+    }
+  },
+  "fixed_token_summaries": [
+    {
+      "path": "work\\selection_manifests\\manifest_random_seed13.summary.json",
+      "strategy": "random",
+      "seed": 13,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    },
+    {
+      "path": "work\\selection_manifests\\manifest_random_seed42.summary.json",
+      "strategy": "random",
+      "seed": 42,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    },
+    {
+      "path": "work\\selection_manifests\\manifest_quality_seed13.summary.json",
+      "strategy": "quality",
+      "seed": 13,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    },
+    {
+      "path": "work\\selection_manifests\\manifest_quality_seed42.summary.json",
+      "strategy": "quality",
+      "seed": 42,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    },
+    {
+      "path": "work\\selection_manifests\\manifest_diversity_seed13.summary.json",
+      "strategy": "diversity",
+      "seed": 13,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    },
+    {
+      "path": "work\\selection_manifests\\manifest_diversity_seed42.summary.json",
+      "strategy": "diversity",
+      "seed": 42,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    },
+    {
+      "path": "work\\selection_manifests_seed2026\\manifest_random_seed2026.summary.json",
+      "strategy": "random",
+      "seed": 2026,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    },
+    {
+      "path": "work\\selection_manifests_seed2026\\manifest_diversity_seed2026.summary.json",
+      "strategy": "diversity",
+      "seed": 2026,
+      "actual_tokens": 1000000,
+      "target_tokens": 1000000,
+      "exact_budget": true,
+      "valid": true
+    }
+  ],
+  "automatic_quality_audit": {
+    "path": "work\\human_audit_200\\automatic_quality_audit_summary.json",
+    "valid": true
+  },
+  "all_checks_pass": true
+}

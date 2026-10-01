@@ -1,0 +1,360 @@
+{
+  "audit_type": "automatic structural and heuristic audit; not human rating",
+  "human_ratings_performed": false,
+  "generated_at_utc": "2026-09-14T08:39:33.814881+00:00",
+  "manifest_count": 8,
+  "manifests": {
+    "manifest_diversity_seed13": {
+      "rows": 1029,
+      "quality_score": {
+        "n": 1029,
+        "mean": 0.888012339164237,
+        "median": 0.893654,
+        "min": 0.744229,
+        "max": 0.98511
+      }
+    },
+    "manifest_diversity_seed2026": {
+      "rows": 1027,
+      "quality_score": {
+        "n": 1027,
+        "mean": 0.8861427887049659,
+        "median": 0.893449,
+        "min": 0.729505,
+        "max": 0.98511
+      }
+    },
+    "manifest_diversity_seed42": {
+      "rows": 1021,
+      "quality_score": {
+        "n": 1021,
+        "mean": 0.8889068432908913,
+        "median": 0.892839,
+        "min": 0.724721,
+        "max": 0.98511
+      }
+    },
+    "manifest_quality_seed13": {
+      "rows": 1033,
+      "quality_score": {
+        "n": 1033,
+        "mean": 0.9019799699903195,
+        "median": 0.900247,
+        "min": 0.829607,
+        "max": 0.98511
+      }
+    },
+    "manifest_quality_seed42": {
+      "rows": 1033,
+      "quality_score": {
+        "n": 1033,
+        "mean": 0.9019799699903195,
+        "median": 0.900247,
+        "min": 0.829607,
+        "max": 0.98511
+      }
+    },
+    "manifest_random_seed13": {
+      "rows": 1006,
+      "quality_score": {
+        "n": 1006,
+        "mean": 0.8687535198807157,
+        "median": 0.8763395,
+        "min": 0.725889,
+        "max": 0.980405
+      }
+    },
+    "manifest_random_seed2026": {
+      "rows": 995,
+      "quality_score": {
+        "n": 995,
+        "mean": 0.8669870532663316,
+        "median": 0.877046,
+        "min": 0.674099,
+        "max": 0.979006
+      }
+    },
+    "manifest_random_seed42": {
+      "rows": 1000,
+      "quality_score": {
+        "n": 1000,
+        "mean": 0.868194531,
+        "median": 0.8772255,
+        "min": 0.673571,
+        "max": 0.98511
+      }
+    }
+  },
+  "total_manifest_rows": 8144,
+  "unique_example_ids_across_manifests": 3794,
+  "duplicate_example_ids_across_manifests": 1827,
+  "duplicate_example_id_examples": {
+    "002b394fff64961368531fb7e7b2674be9847c60c1bac23684ea167e23f71e29": [
+      "manifest_random_seed42",
+      "manifest_diversity_seed13"
+    ],
+    "00696d23b02d3f9d20aad751baf04ce7bd2c957ca08485cdeeaa1b2c12b6a3ca": [
+      "manifest_random_seed42",
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed42",
+      "manifest_diversity_seed2026"
+    ],
+    "0079aa1532bea8c051e13586c9f649effb2ed60cfecdf4c763009729b2ab28bf": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed42",
+      "manifest_diversity_seed2026"
+    ],
+    "00817984e84fa54f758f7df20d0b8e75e47c82c699f884932bc9cf14d3afa499": [
+      "manifest_random_seed2026",
+      "manifest_diversity_seed2026"
+    ],
+    "00c616c934bf3338b3924ecc8bdf545645e199ee4d58c7c63394d16da1a8e677": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42"
+    ],
+    "00d26101a396e3f24aaa4f4af9c8f32bca01d8a9ad646088782dbf533bdde359": [
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed2026"
+    ],
+    "00e0432f636c449d1c75a9fb0527e44fe30d283982afdfc0da6397124f3a63a3": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_random_seed2026"
+    ],
+    "00e496bc6fea0aef7761b94d3bf8505d9341088492ca6d8a51d3bc72b32794a1": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_diversity_seed13"
+    ],
+    "013fa07b07022402c910d4803869aa2c5be67478acfeec8aaed03ffb439487a7": [
+      "manifest_random_seed42",
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_diversity_seed42"
+    ],
+    "014ec115444deedc3a1ac9f959b9847cf233cb6490e1dc93d00376461d0307f6": [
+      "manifest_random_seed13",
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed42",
+      "manifest_random_seed2026"
+    ],
+    "0244527562da06f5d6fe3af62b42a4b2f9f6ccc1659351abd60a8d59afcddef9": [
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed42",
+      "manifest_diversity_seed2026"
+    ],
+    "024c45fc9a16c4367974b090a6cedf0f4215e609e9e550a120bd749819df2764": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_random_seed2026"
+    ],
+    "026dcedf228a0375864a8f0c3986c75bdb5372039cda0f02cb02279d39a9850e": [
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed42",
+      "manifest_diversity_seed2026"
+    ],
+    "028f228b8f201b6011a643b1275142ed90585cb1e6d261d291a1fe749028404b": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed2026"
+    ],
+    "02ae4df86fb5b3e01892274b278db966983e91553b5fd9cf04058c54563faa97": [
+      "manifest_diversity_seed42",
+      "manifest_random_seed2026",
+      "manifest_diversity_seed2026"
+    ],
+    "02c3871b89340f89d4be67f5a352bd8af7688c17b2849501db8711a3e98ee24c": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_diversity_seed13"
+    ],
+    "02fbc41cc357615b23b979511cd92a5249b793367d18e20c42e8eeebe47eec0e": [
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_diversity_seed13",
+      "manifest_random_seed2026"
+    ],
+    "031ed50666093a684fced0ddfac51bda03b8656cb5cdde7b5a470b93821895c6": [
+      "manifest_random_seed42",
+      "manifest_diversity_seed13",
+      "manifest_diversity_seed42",
+      "manifest_random_seed2026",
+      "manifest_diversity_seed2026"
+    ],
+    "033b2a253685e71a7462771c7927162c2428d148db8de4973c252c6fa74a4fca": [
+      "manifest_diversity_seed42",
+      "manifest_random_seed2026",
+      "manifest_diversity_seed2026"
+    ],
+    "0369ef9b114d373db03ab0f88a9551633ee04dea2beaedcd7eb1f1c5baf764ab": [
+      "manifest_random_seed13",
+      "manifest_quality_seed13",
+      "manifest_quality_seed42",
+      "manifest_random_seed2026"
+    ]
+  },
+  "source_summary": {
+    "smol-constraints": {
+      "rows": 666,
+      "quality_score": {
+        "n": 666,
+        "mean": 0.9434410345345345,
+        "median": 0.962744,
+        "min": 0.673571,
+        "max": 0.98511
+      }
+    },
+    "smol-magpie-ultra": {
+      "rows": 5361,
+      "quality_score": {
+        "n": 5361,
+        "mean": 0.8709453273642976,
+        "median": 0.884043,
+        "min": 0.679034,
+        "max": 0.952765
+      }
+    },
+    "smol-rewrite": {
+      "rows": 807,
+      "quality_score": {
+        "n": 807,
+        "mean": 0.9462720855018587,
+        "median": 0.952285,
+        "min": 0.833701,
+        "max": 0.978509
+      }
+    },
+    "smol-summarize": {
+      "rows": 1310,
+      "quality_score": {
+        "n": 1310,
+        "mean": 0.8691597969465649,
+        "median": 0.88349,
+        "min": 0.722764,
+        "max": 0.949645
+      }
+    }
+  },
+  "selection_overlap_counts": {
+    "manifest_random_seed13": {
+      "manifest_random_seed13": 1006,
+      "manifest_random_seed42": 178,
+      "manifest_quality_seed13": 196,
+      "manifest_quality_seed42": 196,
+      "manifest_diversity_seed13": 201,
+      "manifest_diversity_seed42": 193,
+      "manifest_random_seed2026": 187,
+      "manifest_diversity_seed2026": 201
+    },
+    "manifest_random_seed42": {
+      "manifest_random_seed13": 178,
+      "manifest_random_seed42": 1000,
+      "manifest_quality_seed13": 206,
+      "manifest_quality_seed42": 206,
+      "manifest_diversity_seed13": 200,
+      "manifest_diversity_seed42": 189,
+      "manifest_random_seed2026": 174,
+      "manifest_diversity_seed2026": 196
+    },
+    "manifest_quality_seed13": {
+      "manifest_random_seed13": 196,
+      "manifest_random_seed42": 206,
+      "manifest_quality_seed13": 1033,
+      "manifest_quality_seed42": 1033,
+      "manifest_diversity_seed13": 511,
+      "manifest_diversity_seed42": 505,
+      "manifest_random_seed2026": 194,
+      "manifest_diversity_seed2026": 472
+    },
+    "manifest_quality_seed42": {
+      "manifest_random_seed13": 196,
+      "manifest_random_seed42": 206,
+      "manifest_quality_seed13": 1033,
+      "manifest_quality_seed42": 1033,
+      "manifest_diversity_seed13": 511,
+      "manifest_diversity_seed42": 505,
+      "manifest_random_seed2026": 194,
+      "manifest_diversity_seed2026": 472
+    },
+    "manifest_diversity_seed13": {
+      "manifest_random_seed13": 201,
+      "manifest_random_seed42": 200,
+      "manifest_quality_seed13": 511,
+      "manifest_quality_seed42": 511,
+      "manifest_diversity_seed13": 1029,
+      "manifest_diversity_seed42": 580,
+      "manifest_random_seed2026": 190,
+      "manifest_diversity_seed2026": 582
+    },
+    "manifest_diversity_seed42": {
+      "manifest_random_seed13": 193,
+      "manifest_random_seed42": 189,
+      "manifest_quality_seed13": 505,
+      "manifest_quality_seed42": 505,
+      "manifest_diversity_seed13": 580,
+      "manifest_diversity_seed42": 1021,
+      "manifest_random_seed2026": 177,
+      "manifest_diversity_seed2026": 584
+    },
+    "manifest_random_seed2026": {
+      "manifest_random_seed13": 187,
+      "manifest_random_seed42": 174,
+      "manifest_quality_seed13": 194,
+      "manifest_quality_seed42": 194,
+      "manifest_diversity_seed13": 190,
+      "manifest_diversity_seed42": 177,
+      "manifest_random_seed2026": 995,
+      "manifest_diversity_seed2026": 179
+    },
+    "manifest_diversity_seed2026": {
+      "manifest_random_seed13": 201,
+      "manifest_random_seed42": 196,
+      "manifest_quality_seed13": 472,
+      "manifest_quality_seed42": 472,
+      "manifest_diversity_seed13": 582,
+      "manifest_diversity_seed42": 584,
+      "manifest_random_seed2026": 179,
+      "manifest_diversity_seed2026": 1027
+    }
+  },
+  "true_flag_counts": {
+    "assistant_last": 8144,
+    "has_assistant": 8144,
+    "has_user": 8144,
+    "long_repeated_character_run": 1,
+    "messages_is_list": 8144,
+    "nonempty_assistant": 8144,
+    "short_assistant_word_count": 6,
+    "valid_message_items": 8144
+  },
+  "stored_vs_recomputed_quality_mismatches": {
+    "count": 0,
+    "first_examples": []
+  },
+  "human_audit_sample": {
+    "n": 200,
+    "unique_example_ids": 200,
+    "found_in_manifests": 200,
+    "source_counts": {
+      "smol-summarize": 51,
+      "smol-constraints": 55,
+      "smol-rewrite": 39,
+      "smol-magpie-ultra": 55
+    },
+    "quality_bin_counts": {
+      "high": 72,
+      "mid": 70,
+      "low": 58
+    }
+  },
+  "limitations": [
+    "Surface and heuristic checks cannot determine factual correctness or usefulness for every item.",
+    "A human rater did not participate; this report cannot be called a human audit.",
+    "Repeated content, short responses, or a non-final assistant role are review flags rather than automatic failures."
+  ]
+}

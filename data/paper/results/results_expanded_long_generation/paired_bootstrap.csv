@@ -1,0 +1,5 @@
+metric,treatment,control,seeds,n_paired_examples,point_estimate,ci_95_lower,ci_95_upper,bootstrap_repetitions,bootstrap_seed
+ifeval_prompt_strict,diversity,random,[2026],384,0.013020833333333334,-0.0234375,0.049479166666666664,10000,2026
+ifeval_instruction_strict,diversity,random,[2026],384,0.014756944444444439,-0.01953125,0.04904513888888889,10000,2026
+gsm8k_accuracy,diversity,random,[2026],512,0.056640625,0.00390625,0.109375,10000,2026
+bbh_accuracy,diversity,random,[2026],432,0.0625,0.016203703703703703,0.1111111111111111,10000,2026

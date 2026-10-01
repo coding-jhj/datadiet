@@ -1,0 +1,7 @@
+{
+  "mode": "real",
+  "content": "SmolTalk subsets (real)",
+  "rows": 655,
+  "dataset": "HuggingFaceTB/smoltalk",
+  "revision": "5feaf2fd3ffca7c237fc38d1861bc30365d48ffa"
+}

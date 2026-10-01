@@ -1,0 +1,136 @@
+{
+  "expected_rows": {
+    "ifeval": 384,
+    "gsm8k": 512,
+    "bbh": 432
+  },
+  "limits": {
+    "ifeval": 1024,
+    "gsm8k": 256,
+    "bbh": 256
+  },
+  "adapters": {
+    "random_seed2026": {
+      "adapter": "random_seed2026",
+      "strategy": "random",
+      "seed": 2026,
+      "all_files_complete": true,
+      "possible_truncation_total": 1318,
+      "files": {
+        "ifeval": {
+          "path": "work\\evaluation_expanded_long_generation\\random_seed2026\\ifeval_outputs.jsonl",
+          "rows": 384,
+          "expected_rows": 384,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 1024,
+          "possible_truncation_count": 374,
+          "response_token_min": 922,
+          "response_token_mean": 1031.5,
+          "response_token_max": 1536,
+          "valid_scored_rows": 384
+        },
+        "gsm8k": {
+          "path": "work\\evaluation_expanded_long_generation\\random_seed2026\\gsm8k_outputs.jsonl",
+          "rows": 512,
+          "expected_rows": 512,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 256,
+          "possible_truncation_count": 512,
+          "response_token_min": 256,
+          "response_token_mean": 256.599609375,
+          "response_token_max": 262,
+          "valid_scored_rows": 512
+        },
+        "bbh": {
+          "path": "work\\evaluation_expanded_long_generation\\random_seed2026\\bbh_outputs.jsonl",
+          "rows": 432,
+          "expected_rows": 432,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 256,
+          "possible_truncation_count": 432,
+          "response_token_min": 256,
+          "response_token_mean": 258.99768518518516,
+          "response_token_max": 368,
+          "valid_scored_rows": 432
+        }
+      }
+    },
+    "diversity_seed2026": {
+      "adapter": "diversity_seed2026",
+      "strategy": "diversity",
+      "seed": 2026,
+      "all_files_complete": true,
+      "possible_truncation_total": 1322,
+      "files": {
+        "ifeval": {
+          "path": "work\\evaluation_expanded_long_generation\\diversity_seed2026\\ifeval_outputs.jsonl",
+          "rows": 384,
+          "expected_rows": 384,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 1024,
+          "possible_truncation_count": 381,
+          "response_token_min": 955,
+          "response_token_mean": 1023.8723958333334,
+          "response_token_max": 1036,
+          "valid_scored_rows": 384
+        },
+        "gsm8k": {
+          "path": "work\\evaluation_expanded_long_generation\\diversity_seed2026\\gsm8k_outputs.jsonl",
+          "rows": 512,
+          "expected_rows": 512,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 256,
+          "possible_truncation_count": 511,
+          "response_token_min": 254,
+          "response_token_mean": 255.99609375,
+          "response_token_max": 256,
+          "valid_scored_rows": 512
+        },
+        "bbh": {
+          "path": "work\\evaluation_expanded_long_generation\\diversity_seed2026\\bbh_outputs.jsonl",
+          "rows": 432,
+          "expected_rows": 432,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 256,
+          "possible_truncation_count": 430,
+          "response_token_min": 255,
+          "response_token_mean": 255.9976851851852,
+          "response_token_max": 257,
+          "valid_scored_rows": 432
+        }
+      }
+    }
+  },
+  "all_files_complete": true,
+  "possible_truncation_total": 2640
+}

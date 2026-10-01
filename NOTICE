@@ -1,0 +1,11 @@
+DataDiet third-party material
+
+* Study package (data/paper): results, manifests and code of the author's own paper
+  "Effects of Data Selection under a Fixed Token Budget". See data/paper/licenses_and_provenance.md.
+* HuggingFaceTB/smoltalk (revision 5feaf2fd3ffca7c237fc38d1861bc30365d48ffa): source of the demo sample when
+  generated with tools/sample/make_sample.py --mode real. Apache-2.0 subsets smol-magpie-ultra,
+  smol-constraints, smol-rewrite, smol-summarize. Check the dataset card for per-source notes.
+* Qwen/Qwen3-1.7B-Base tokenizer: loaded from Hugging Face at run time. Follow the model card's terms.
+* sentence-transformers/all-MiniLM-L6-v2 (ONNX build by Xenova): loaded from Hugging Face at run time, Apache-2.0.
+* npm dependencies keep their own licenses (React, Vite, Tailwind, Comlink, Zod, Zustand, @noble/hashes,
+  @huggingface/transformers, onnxruntime-web, lucide-react, html-to-image, react-router).

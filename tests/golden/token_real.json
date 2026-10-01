@@ -1,0 +1,45 @@
+[
+ {
+  "messages": [
+   {
+    "role": "user",
+    "content": "What is 2+2?"
+   },
+   {
+    "role": "assistant",
+    "content": "It is 4."
+   }
+  ],
+  "tokens": 26
+ },
+ {
+  "messages": [
+   {
+    "role": "system",
+    "content": "Be brief."
+   },
+   {
+    "role": "user",
+    "content": "Explain gradient descent in one sentence."
+   },
+   {
+    "role": "assistant",
+    "content": "It repeatedly nudges parameters downhill on the loss surface."
+   }
+  ],
+  "tokens": 41
+ },
+ {
+  "messages": [
+   {
+    "role": "user",
+    "content": "Rewrite: the cat sat on the mat"
+   },
+   {
+    "role": "assistant",
+    "content": "The cat was sitting on the mat.\n\nDone."
+   }
+  ],
+  "tokens": 33
+ }
+]

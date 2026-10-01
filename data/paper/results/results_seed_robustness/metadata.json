@@ -1,0 +1,14 @@
+{
+  "primary_dir": "work\\evaluation_final_balanced",
+  "seed2026_dir": "work\\evaluation_seed2026_long_generation",
+  "seeds": [
+    13,
+    42,
+    2026
+  ],
+  "strategy_scope": [
+    "random",
+    "diversity"
+  ],
+  "bootstrap_repetitions": 10000
+}

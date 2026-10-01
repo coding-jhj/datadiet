@@ -1,0 +1,23 @@
+{
+  "evaluation_dir": "work\\evaluation_seed2026_long_generation",
+  "limits": {
+    "ifeval": 1024,
+    "gsm8k": 256,
+    "bbh": 256
+  },
+  "adapters": [
+    {
+      "name": "random_seed2026",
+      "strategy": "random",
+      "seed": 2026
+    },
+    {
+      "name": "diversity_seed2026",
+      "strategy": "diversity",
+      "seed": 2026
+    }
+  ],
+  "tokenizer": "Qwen/Qwen3-1.7B-Base",
+  "tokenizer_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+  "validation_all_files_complete": true
+}

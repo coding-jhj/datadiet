@@ -1,0 +1,76 @@
+{
+  "expected_rows": {
+    "ifeval": 192,
+    "gsm8k": 256,
+    "bbh": 216
+  },
+  "limits": {
+    "ifeval": 1024,
+    "gsm8k": 256,
+    "bbh": 256
+  },
+  "adapters": {
+    "base_model": {
+      "adapter": "base_model",
+      "strategy": "base",
+      "seed": 0,
+      "all_files_complete": true,
+      "possible_truncation_total": 297,
+      "files": {
+        "ifeval": {
+          "path": "work\\evaluation_base_long_generation\\base_model\\ifeval_outputs.jsonl",
+          "rows": 192,
+          "expected_rows": 192,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 1024,
+          "possible_truncation_count": 116,
+          "response_token_min": 1,
+          "response_token_mean": 677.3541666666666,
+          "response_token_max": 1365,
+          "valid_scored_rows": 192
+        },
+        "gsm8k": {
+          "path": "work\\evaluation_base_long_generation\\base_model\\gsm8k_outputs.jsonl",
+          "rows": 256,
+          "expected_rows": 256,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 256,
+          "possible_truncation_count": 107,
+          "response_token_min": 7,
+          "response_token_mean": 203.1484375,
+          "response_token_max": 261,
+          "valid_scored_rows": 256
+        },
+        "bbh": {
+          "path": "work\\evaluation_base_long_generation\\base_model\\bbh_outputs.jsonl",
+          "rows": 216,
+          "expected_rows": 216,
+          "parse_errors": [],
+          "duplicate_ids": [],
+          "missing_ids": [],
+          "extra_ids": [],
+          "malformed_rows": 0,
+          "empty_responses": 0,
+          "response_token_limit": 256,
+          "possible_truncation_count": 74,
+          "response_token_min": 1,
+          "response_token_mean": 105.18055555555556,
+          "response_token_max": 257,
+          "valid_scored_rows": 216
+        }
+      }
+    }
+  },
+  "all_files_complete": true,
+  "possible_truncation_total": 297
+}
