@@ -288,7 +288,12 @@ def main() -> None:
     parser.add_argument("--mode", choices=["real", "offline"], required=True)
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--seed", type=int, default=20260930)
+    parser.add_argument("--scale", type=int, default=1, help="multiply rows per subset (use 20 for a study-size test file)")
     args = parser.parse_args()
+    global SCAN_ROWS
+    SCAN_ROWS *= args.scale
+    for key in PER_CONFIG:
+        PER_CONFIG[key] *= args.scale
     rng = random.Random(args.seed)
 
     data = real_rows(rng) if args.mode == "real" else offline_rows(rng)
