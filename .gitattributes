@@ -1,0 +1,2 @@
+# Vendored study package: keep bytes exactly as recorded in data/paper/VENDORED.json (no EOL conversion)
+data/paper/** -text
