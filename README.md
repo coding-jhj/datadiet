@@ -6,13 +6,17 @@
 
 A free, in-browser tool for people fine-tuning a small AI model. It turns the results of a controlled study into a clear pick: which examples to train on, how sure we are, and a ready-to-use training file.
 
-[**Open the app**](https://YOUR-APP.vercel.app) · [How it works](#how-it-works) · [Run it yourself](#run-it) · [The paper](public/paper/paper.pdf)
+[**Open the app**](https://datadiet-pi.vercel.app/) · [How it works](#how-it-works) · [Run it yourself](#run-it) · [The paper](public/paper/paper.pdf)
 
 <img src="docs/screenshots/landing.png" alt="DataDiet landing page" width="820">
 
 </div>
 
-> 한국어 요약: 소형 AI 모델을 미세조정하는 사람이 학습 예산이 제한될 때 어떤 예시를 쓸지 고르도록, 논문(*Effects of Data Selection under a Fixed Token Budget*)의 세 가지 선택 전략 비교 결과를 그대로 써서 목표별 추천과 신뢰도를 알려 주고 학습용 파일을 만들어 줍니다.
+> 한국어 요약: 소형 AI 모델을 미세조정하는 사람이 학습 예산이 제한될 때 어떤 예시를 쓸지 고르도록 돕는 웹앱입니다. 논문(*Effects of Data Selection under a Fixed Token Budget*)의 세 가지 선택 전략(무작위·품질 우선·품질+다양성) 비교 결과를 그대로 써서 목표별 추천과 신뢰도를 알려 주고 학습용 파일을 만들어 줍니다.
+>
+> - 서버·로그인 없이 브라우저 안에서만 동작하며, 입력한 데이터는 업로드되지 않습니다(공개 모델은 Hugging Face에서 내려받습니다).
+> - 추천 라벨은 논문의 95% 신뢰구간에서 계산합니다. 가장 좋은 결과도 "유망하지만 입증 안 됨"으로만 표시하고, 지시 수행은 "이득 없음"으로 표시합니다.
+> - 서비스: <https://datadiet-pi.vercel.app/>
 
 ---
 
@@ -65,7 +69,7 @@ The three strategies are a TypeScript port of the study's `select_data.py`. Rand
 
 ## Run it
 
-**Public URL:** [open the app](https://YOUR-APP.vercel.app) (static site, no login).
+**Public URL:** [open the app](https://datadiet-pi.vercel.app/) (static site, no login).
 
 **From the ZIP** (prebuilt; needs only Python or Node):
 
